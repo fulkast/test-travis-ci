@@ -10,10 +10,6 @@ ruby: 2.2.0
 before_install:
 - echo $LANG
 - echo $LC_ALL
-- gem update --system
-- gem --version
-before_script:
-- travis_retry bundle
 after_success:
 branches:
   only:

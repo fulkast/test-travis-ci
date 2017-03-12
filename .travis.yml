@@ -7,6 +7,7 @@ os:
 - linux
 # - osx
 ruby: 2.2.0
+script: make
 before_install:
 - echo $LANG
 - echo $LC_ALL
